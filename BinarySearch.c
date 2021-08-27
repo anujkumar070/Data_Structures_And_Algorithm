@@ -1,4 +1,3 @@
-//Binary Search by Anuj Kumar Sahu---
 #include<iostream>
 using namespace std;
 
