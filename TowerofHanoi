@@ -1,0 +1,29 @@
+//BY ANUJ KUMAR SAHU
+#include<bits/stdc++.h>
+using namespace std;
+
+void TowerofHanoi(int n, string src, string dest, string helper)
+{
+    if(n==0)
+    {
+        return ;
+    }
+    
+    TowerofHanoi(n-1, src, helper, dest);
+    cout<<"Move from "<< src<<" to "<<dest<<endl;
+    TowerofHanoi(n-1,helper,dest,src);
+    return;
+    
+}
+
+int main()
+{
+    int n;
+    cout<<"Enter no. of Blocks: ";
+    cin>>n;
+    string src,dest,helper;
+    cout<<"Enter Source, Destination and Helper Rod name : ";
+    cin>>src>>dest>>helper;
+    
+    TowerofHanoi(n, src, dest, helper);
+}
