@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void Reverse(string s)
+{
+    if(s.length()==0)
+    {
+        return;
+    }
+    string res = s.substr(1);
+    Reverse(res);
+    cout<<s[0];
+    return ;
+}
+
+int main()
+{
+    string s;
+    cin>>s;
+    Reverse(s);
+    return 0;
+}
