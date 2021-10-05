@@ -3,7 +3,7 @@ using namespace std;
 
 void Merge(int arr[], int l, int mid, int r )
 {
-    int n1=mid-1+l;
+    int n1=mid-l+1;
     int n2=r-mid;
     
     int a[n1];
@@ -24,21 +24,21 @@ void Merge(int arr[], int l, int mid, int r )
     
     while(i<n1 && j<n2)
     {
-        if(a[i]<b[j])
+        if(a[i]<=b[j])
         {
             
             arr[k]=a[i];
-          
-            k++,i++;
+            i++;k++;
             
         }
         else
         {
             arr[k]=b[j];
-            k++;j++;
+            j++;k++;
            
             
         }
+    
     }
     
     while(i<n1)
