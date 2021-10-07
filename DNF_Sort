@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 
-void swap(int i, int j)
+void swap(int arr[],int i, int j)
 {
-    int temp=i;
-    i=j;
-    j=temp;
+    int temp=arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
 }
 
-void dnsSort(int arr[], int n)
+void DNFSort(int arr[], int n)
 {
     int low=0;
     int mid=0;
@@ -16,9 +16,9 @@ void dnsSort(int arr[], int n)
 
     while(mid<=high)
     {
-        if(arr[mid==0])
+        if(arr[mid]==0)
         {
-            swap(arr[low],arr[mid]);
+            swap(arr,low,mid);
             low++;mid++;
         }
         else if(arr[mid]==1)
@@ -27,7 +27,7 @@ void dnsSort(int arr[], int n)
         }
         else
         {
-            swap(arr[mid],arr[high]);
+            swap(arr,mid,high);
             high--;
         }
         
@@ -46,7 +46,7 @@ int main()
         cin>>arr[i];
     }
     
-    dnsSort(arr,n);
+    DNFSort(arr,n);
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
