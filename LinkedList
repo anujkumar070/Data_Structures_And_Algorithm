@@ -46,6 +46,14 @@ void display(node* head)
     
 }
 
+void insertAthead(node* &head, int val)
+{
+    
+    node* n = new node(val);
+    n->next=head;
+    head=n;
+}
+
 int main()
 {
     
@@ -54,6 +62,9 @@ int main()
     insertAtEnd(head,2);
     insertAtEnd(head,3);
     insertAtEnd(head,4);
+    display(head);
+    cout<<endl;
+    insertAthead(head,5);
     display(head);
     return 0;
 }
