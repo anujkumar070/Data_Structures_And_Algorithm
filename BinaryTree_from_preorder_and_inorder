@@ -1,0 +1,78 @@
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class Node{
+    public:
+    int data;
+    Node *left;
+    Node *right;
+    
+    Node(int val)
+    {
+        data=val;
+        left=NULL;
+        right=NULL;
+    }
+};
+
+int search(vector<int> inorder, int start,int end,int curr)
+{
+    for(int i=start;i<end;i++)
+    {
+        if(inorder[i]==curr)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+
+Node* createTree(vector<int> preorder, vector<int> inorder , int start, int end)
+{
+    static int idx=0;
+    if(start>end)
+    {
+        return NULL;
+    }
+    int curr=preorder[idx];
+    idx++;
+    Node *node = new Node(curr);
+    if(start==end)
+    {
+        return node;
+    }
+    
+    int pos = search(inorder,start,end,curr);
+    node->left=createTree(preorder,inorder,start,pos-1);
+    node->right=createTree(preorder,inorder,pos+1, end);
+
+    return node;
+    
+}
+void inorde(Node* root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
+    inorde(root->left);
+    cout<<root->data<<" ";
+    inorde(root->right);
+    return;
+    
+}
+int main()
+{
+    
+    
+    //cout<<root->left->data;
+    vector<int> preorder {1,2,4,5,6,3,7};
+    vector<int> inorder {4,2,5,1,6,3,7};
+    
+    Node *root =createTree(preorder,inorder,0,6);
+    inorde(root);
+
+    return 0;
+}
