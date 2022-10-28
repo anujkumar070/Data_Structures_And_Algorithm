@@ -1,53 +1,53 @@
 # Data_Structures_And_Algorithm
 This repository contains code that I had written while learning DSA.
+# Questions in this Repository
+<a href="">BinarySearch.c</a>
 
-BinarySearch.c
-
-BinarySearchTree
-Binary Search Tree
-
-
-
-BinaryTree_from_preorder_and_inorder
+<a href="">BinarySearchTree</a>
+<a href="">Binary Search Tree</a>
 
 
-Binary_Number_Addition
+
+<a href="">BinaryTree_from_preorder_and_inorder</a>
 
 
-Check_BST
-
-Count_Sort
-
-DNF_Sort
-
-Kadane_Algorithm
-
-KnapSack_Problem
-
-LinkedList
+<a href="">Binary_Number_Addition</a></a></a>
 
 
-Matrix_Multiplication.c
+<a href="">Check_BST</a></a>
 
-Matrix_Search_Optimised.c
+<a href="">Count_Sort</a>
 
-Matrix_Transpose.c
+<a href="">DNF_Sort</a>
 
-Merge_Sort
+<a href="">Kadane_Algorithm</a>
 
-Queue_Implementation_using_Arrays
+<a href="">KnapSack_Problem</a>
 
-Quick_Sort
-
-
-Reverse_String_Using_Recursion
+<a href="">LinkedList</a>
 
 
-SelectionSort.c
+<a href="">Matrix_Multiplication.c</a>
 
-Sorted_Array_into_BST
+<a href="">Matrix_Search_Optimised.c</a>
+
+<a href="">Matrix_Transpose.c</a>
+
+<a href="">Merge_Sort</a></a>
+
+<a href="">Queue_Implementation_using_Arrays</a>
+
+<a href="">Quick_Sort</a></a>
 
 
-SpiralMatrix.c
+<a href="">Reverse_String_Using_Recursion</a>
 
-TowerofHanoi
+
+<a href="">SelectionSort.c</a>
+
+<a href="">Sorted_Array_into_BST</a>
+
+
+<a href="">SpiralMatrix.c</a>
+
+<a href="">TowerofHanoi</a></a>
