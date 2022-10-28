@@ -11,10 +11,10 @@ This repository contains code that I had written while learning DSA.
 <a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/BinaryTree_from_preorder_and_inorder">BinaryTree_from_preorder_and_inorder</a>
 
 
-<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Binary_Number_Addition">Binary_Number_Addition</a></a></a>
+<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Binary_Number_Addition">Binary_Number_Addition</a>
 
 
-<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Check_BST">Check_BST</a></a>
+<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Check_BST">Check_BST</a>
 
 <a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Count_Sort">Count_Sort</a>
 
@@ -37,7 +37,7 @@ This repository contains code that I had written while learning DSA.
 
 <a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Queue_Implementation_using_Arrays">Queue_Implementation_using_Arrays</a>
 
-<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Quick_Sort">Quick_Sort</a></a>
+<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Quick_Sort">Quick_Sort</a>
 
 
 <a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/Reverse_String_Using_Recursion">Reverse_String_Using_Recursion</a>
@@ -50,4 +50,4 @@ This repository contains code that I had written while learning DSA.
 
 <a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/SpiralMatrix.c">SpiralMatrix.c</a>
 
-<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/TowerofHanoi">TowerofHanoi</a></a>
+<a href="https://github.com/anujkumar070/Data_Structures_And_Algorithm/blob/main/TowerofHanoi">TowerofHanoi</a>
